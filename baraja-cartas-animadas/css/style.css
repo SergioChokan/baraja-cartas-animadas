@@ -1,0 +1,423 @@
+
+body {
+    background-color: green;
+}
+
+* {
+    font-size: 30px;
+}
+
+
+
+div {
+    background-color: lightgrey;
+}
+
+
+/*DOS TREBOLES*/
+
+
+.dos_treboles {
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    transform: rotate(-30deg);
+
+}
+
+.cabezera_dos {
+    margin: 10px;
+    height: 80px;
+    width: 50px;
+    /*border: 2px solid black;*/    
+}
+
+.pie_dos {
+    margin: 10px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.treboles_1_2 {
+    position: absolute;
+    left: 85px;
+    top: 40px;
+    font-size: 50px;
+}
+
+.treboles_2_2 {
+    position: absolute;
+    left: 85px;
+    bottom: 40px;
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+
+/*TRES PICA*/
+
+.tres_pica {
+    position: absolute;
+    left: 200px;
+        top: 110px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    transform: rotate(-30deg);
+    z-index: 2;
+    animation-name: accion_3;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 3s;
+
+}
+
+@keyframes accion_3 {
+    0% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 300px;
+        top: 70px;
+        transform: rotate(-10deg);
+    }
+}
+
+.cabezera_tres {
+    margin: 10px;
+    height: 80px;
+    width: 50px;  
+}
+
+.pie_tres {
+    margin: 10px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.pica1 {
+    position: absolute;
+    left: 85px;
+    top: 40px;
+    font-size: 50px;
+}
+
+.pica2 {
+    position: absolute;
+    left: 85px;
+    top: 120px;
+    font-size: 50px;
+}
+
+.pica3 {
+    position: absolute;
+    left : 85px;
+    bottom: 40px;
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+/*CUATRO TREBOLES*/
+
+
+.cuatro_treboles {
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    transform: rotate(-30deg);
+    z-index: 3;
+    animation-name: accion_4;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 3s;
+}
+
+@keyframes accion_4 {
+    0% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 400px;
+        top: 50px;
+        transform: rotate(0deg);
+    }
+}
+
+.cabezera_cuatro {
+    margin: 10px;
+    height: 80px;
+    width: 50px;    
+}
+
+.pie_cuatro {
+    margin: 10px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.treboles_1_4 {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 50px;
+}
+
+.treboles_2_4 {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 50px;
+    
+}
+
+.treboles_3_4 {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+.treboles_4_4 {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+
+
+
+/*CINCO CORAZONES*/
+
+
+.cinco_corazones {
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: red;
+    transform: rotate(-30deg);
+    z-index: 4;
+    animation-name: accion_5;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 3s;
+}
+
+@keyframes accion_5 {
+    0% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 500px;
+        top: 50px;
+        transform: rotate(10deg);
+    }
+}
+
+.cabezera_cinco {
+    margin: 10px;
+    height: 80px;
+    width: 50px;
+    /*border: 2px solid black;*/    
+}
+
+.pie_cinco {
+    margin: 10px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.corazon1 {
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 50px;
+}
+
+.corazon2 {
+    position: absolute;
+    left: 130px;
+    top: 60px;
+    font-size: 50px;
+}
+
+.corazon3 {
+    position: absolute;
+    left : 85px;
+    top: 120px;
+    font-size: 50px;
+}
+
+
+.corazon4 {
+    position: absolute;
+    left: 130px;
+    bottom: 60px;
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+
+.corazon5 {
+    position: absolute;
+    left: 40px;
+    bottom: 60px;
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+/*SIETE TREBOLES*/
+
+.siete_treboles {
+    position: absolute;
+    left: 200px;
+    top: 110px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    transform: rotate(-30deg);
+    z-index: 5;
+    animation-name: accion_7;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: 3s;
+
+}
+
+@keyframes accion_7 {
+    0% {
+        left: 200px;
+        top: 110px;
+        transform: rotate(-30deg);
+    }
+    100% {
+        left: 600px;
+        top: 70px;
+        transform: rotate(30deg);
+    }
+}
+
+
+.cabezera_siete {
+    margin: 10px;
+    height: 80px;
+    width: 50px;    
+}
+
+.pie_siete {
+    margin: 10px;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.treboles_1_7 {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 50px;
+}
+
+.treboles_2_7 {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 50px;
+    
+}
+
+.treboles_3_7 {
+    position: absolute;
+    left: 85px;
+    top: 80px;
+    font-size: 50px;
+    
+}
+
+.treboles_4_7 {
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    font-size: 50px;
+   
+}
+.treboles_5_7 {
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    font-size: 50px;
+    
+}
+
+.treboles_6_7 {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+.treboles_7_7 {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    font-size: 50px;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
