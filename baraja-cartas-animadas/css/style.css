@@ -10,7 +10,19 @@ body {
 
 
 div {
-    background-color: lightgrey;
+    
+}
+
+.div_bien {
+    width: 650px;
+    z-index: -2;
+}
+
+.bienvenido {
+    font-size: 100px;
+    position: relative;
+    left: 20px;
+    z-index: -2;
 }
 
 
@@ -18,16 +30,33 @@ div {
 
 
 .dos_treboles {
+    background-color: lightgrey;
     position: absolute;
-    left: 200px;
-    top: 110px;
+    left: 500px;
+    bottom: 200px;
     width: 200px;
     height: 300px;
     border: 2px solid black;
     border-radius: 10px;
     color: black;
-    transform: rotate(-30deg);
+    transform: rotate(-20deg);
+    animation-name: accion_2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
 
+@keyframes accion_2 {
+    0% {
+        left: 500px;
+        bottom: 200px;
+        transform: rotate(-20deg);
+    }
+    100% {
+        left: 280px;
+        bottom: 149px;
+        transform: rotate(-20deg);
+    }
 }
 
 .cabezera_dos {
@@ -65,32 +94,33 @@ div {
 /*TRES PICA*/
 
 .tres_pica {
+    background-color: lightgrey;
     position: absolute;
-    left: 200px;
-        top: 110px;
+    left: 500px;
+    bottom: 200px;
     width: 200px;
     height: 300px;
     border: 2px solid black;
     border-radius: 10px;
     color: black;
-    transform: rotate(-30deg);
+    transform: rotate(-20deg);
     z-index: 2;
     animation-name: accion_3;
     animation-duration: 3s;
-    animation-delay: 4s;
-    animation-iteration-count: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 
 }
 
 @keyframes accion_3 {
     0% {
-        left: 200px;
-        top: 110px;
-        transform: rotate(-30deg);
+        left: 500px;
+        bottom: -200px;
+        transform: rotate(-20deg);
     }
     100% {
-        left: 300px;
-        top: 70px;
+        left: 400px;
+        bottom: 185px;
         transform: rotate(-10deg);
     }
 }
@@ -140,31 +170,32 @@ div {
 
 
 .cuatro_treboles {
+    background-color: lightgrey;
     position: absolute;
-    left: 200px;
-    top: 110px;
+    left: 500px;
+    bottom: 200px;
     width: 200px;
     height: 300px;
     border: 2px solid black;
     border-radius: 10px;
     color: black;
-    transform: rotate(-30deg);
+    transform: rotate(-20deg);
     z-index: 3;
     animation-name: accion_4;
     animation-duration: 3s;
-    animation-delay: 4s;
-    animation-iteration-count: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes accion_4 {
     0% {
-        left: 200px;
-        top: 110px;
-        transform: rotate(-30deg);
+        left: 500px;
+        bottom: 200px;
+        transform: rotate(-20deg);
     }
     100% {
-        left: 400px;
-        top: 50px;
+        left: 550px;
+        bottom: 200px;
         transform: rotate(0deg);
     }
 }
@@ -222,32 +253,34 @@ div {
 
 
 .cinco_corazones {
+    background-color: lightgrey;
     position: absolute;
-    left: 200px;
-    top: 110px;
+    left: 500px;
+    bottom: 200px;
     width: 200px;
     height: 300px;
     border: 2px solid black;
     border-radius: 10px;
     color: red;
-    transform: rotate(-30deg);
-    z-index: 4;
+    transform: rotate(-20deg);
+    z-index: 5;
     animation-name: accion_5;
     animation-duration: 3s;
-    animation-delay: 4s;
-    animation-iteration-count: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes accion_5 {
     0% {
-        left: 200px;
-        top: 110px;
-        transform: rotate(-30deg);
+        left: 500px;
+        bottom: 200px;
+        transform: rotate(-20deg);
     }
     100% {
-        left: 500px;
-        top: 50px;
-        transform: rotate(10deg);
+        left: 845px;
+        bottom: 143px;
+        transform: rotate(20deg);
+        
     }
 }
 
@@ -313,33 +346,34 @@ div {
 /*SIETE TREBOLES*/
 
 .siete_treboles {
+    background-color: lightgrey;
     position: absolute;
-    left: 200px;
-    top: 110px;
+    left: 500px;
+    bottom: 200px;
     width: 200px;
     height: 300px;
     border: 2px solid black;
     border-radius: 10px;
     color: black;
-    transform: rotate(-30deg);
-    z-index: 5;
+    transform: rotate(-20deg);
+    z-index: 4;
     animation-name: accion_7;
     animation-duration: 3s;
-    animation-delay: 4s;
-    animation-iteration-count: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
 
 }
 
 @keyframes accion_7 {
     0% {
-        left: 200px;
-        top: 110px;
-        transform: rotate(-30deg);
+        left: 500px;
+        bottom: 2000px;
+        transform: rotate(-20deg);
     }
     100% {
-        left: 600px;
-        top: 70px;
-        transform: rotate(30deg);
+        left: 700px;
+        bottom: 185px;
+        transform: rotate(10deg);
     }
 }
 
